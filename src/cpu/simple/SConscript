@@ -51,3 +51,5 @@ if env['CONF']['BUILD_ISA']:
     SimObject('AtomicSimpleCPU.py', sim_objects=[])
     SimObject('NonCachingSimpleCPU.py', sim_objects=[])
     SimObject('TimingSimpleCPU.py', sim_objects=[])
+
+    DebugFlag('MyDebugTest')
